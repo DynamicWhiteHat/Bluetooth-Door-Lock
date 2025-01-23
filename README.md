@@ -5,7 +5,8 @@
 The whole lock is controlled by an Adafruit NRF52840 express, which supports Bluetooth Low Energy. Using the Bluefruit Connect app by Adafruit, the board checks whether the correct code was sent or not. Instructions are then sent to a 28 BYJ-48 stepper motor controller, opening or closing the 3D-printed rack and pinion depending on a boolean.
 
 # Wiring Diagram:
-Adafruit NRF52840:
+<pre>
+ Adafruit NRF52840:
 +------------------------------------+
 |                                    |
 |  [JST Port] ---- (3.7V LiPo)       |
@@ -29,6 +30,6 @@ Stepper Controller:
 |  GND ------ 9V Battery Ground (-)         |
 |                                           |
 +-------------------------------------------+
-
+</pre>
 
 # The simple STL file is in the repo titled doorLock.stl 
